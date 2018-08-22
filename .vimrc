@@ -8,3 +8,4 @@ colorscheme desert
 set hlsearch
 hi Search ctermbg=LightYellow
 hi Search ctermfg=Red
+autocmd BufNewFile,BufRead Dockerfile.* set syntax=dockerfile
