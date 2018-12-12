@@ -12,3 +12,4 @@ autocmd BufNewFile,BufRead Dockerfile.* set syntax=dockerfile
 set cindent
 set cinkeys-=0#
 set indentkeys-=0#
+syntax on
