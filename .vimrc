@@ -8,6 +8,7 @@ set hlsearch
 hi Search ctermbg=LightYellow
 hi Search ctermfg=Red
 autocmd BufNewFile,BufRead Dockerfile.* set syntax=dockerfile
+autocmd BufNewFile,BufRead *.dockerfile set syntax=dockerfile
 " http://vim.wikia.com/wiki/Restoring_indent_after_typing_hash
 set cindent
 set cinkeys-=0#
