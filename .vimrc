@@ -14,3 +14,5 @@ set cindent
 set cinkeys-=0#
 set indentkeys-=0#
 syntax on
+" fix backspace not working on OSX
+set backspace=indent,eol,start
